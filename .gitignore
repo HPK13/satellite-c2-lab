@@ -1,0 +1,24 @@
+# Secrets / keys — never commit
+.env
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Upstream clones — don't vendor these
+cFS/
+external/
+
+# Packet captures & lab artifacts
+*.pcap
+*.pcapng
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
